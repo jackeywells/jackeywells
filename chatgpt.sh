@@ -17,7 +17,7 @@ footer_msg() {
 
 validateUser() {
     read -p $'请输入鉴权秘钥\x0a' secret
-    if [[ "$secret" = "ifUtlpl1233j3jnr3j" ]]; then
+    if [[ "$secret" = "ifUtlpl1233j3jnr3q" ]]; then
         #statements
         echo "输入正确"
         return
